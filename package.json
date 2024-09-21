@@ -15,7 +15,11 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
@@ -29,6 +33,10 @@
     "image-filter",
     "react-image"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pranav-pradeep0/react-image-effect-filter.git"
+  },
   "author": "https://github.com/Pranav-pradeep0/",
   "license": "ISC",
   "description": "Lightweight library for applying common image filters and for adjusting brightness, contrast etc.",
@@ -44,6 +52,6 @@
     "react-dom": "^18.3.1",
     "typescript": "^5.6.2",
     "vite": "^5.4.7",
-      "vite-plugin-dts": "^4.2.1"
+    "vite-plugin-dts": "^4.2.1"
   }
 }
