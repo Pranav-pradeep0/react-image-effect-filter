@@ -1,0 +1,49 @@
+{
+  "name": "react-image-effect-filter",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-image-effect-filter.umd.js",
+  "module": "./dist/react-image-effect-filter.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/react-image-effect-filter.es.js",
+      "require": "./dist/react-image-effect-filter.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "react-image-filter",
+    "react-image-effects",
+    "react-image-adjust",
+    "image-filter",
+    "react-image"
+  ],
+  "author": "https://github.com/Pranav-pradeep0/",
+  "license": "ISC",
+  "description": "Lightweight library for applying common image filters and for adjusting brightness, contrast etc.",
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.7",
+      "vite-plugin-dts": "^4.2.1"
+  }
+}
