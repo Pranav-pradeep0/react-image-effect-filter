@@ -172,11 +172,11 @@ export const adjustmentConfigs = [
   },
 ];
 
-export const aspectRatios = [
-  { value: 0, label: "Free" },
-  { value: 1 / 1, label: "1:1" },
-  { value: 3 / 4, label: "3:4" },
-  { value: 4 / 3, label: "4:3" },
-  { value: 16 / 9, label: "16:9" },
-  { value: 9 / 16, label: "9:16" },
-];
+// export const aspectRatios = [
+//   { value: 0, label: "Free" },
+//   { value: 1 / 1, label: "1:1" },
+//   { value: 3 / 4, label: "3:4" },
+//   { value: 4 / 3, label: "4:3" },
+//   { value: 16 / 9, label: "16:9" },
+//   { value: 9 / 16, label: "9:16" },
+// ];
